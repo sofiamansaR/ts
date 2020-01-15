@@ -1,0 +1,47 @@
+@media screen and (max-width: 1519px){
+    .cont {
+        height: 70px;
+        overflow: hidden;
+    }
+    .logo {
+      
+        margin: auto;
+        display: block;
+    }
+    #labelckeck{
+        display: block;
+        cursor: pointer;
+        color: white;
+        margin: 0 40px 0 0;
+        font-size: 26px;
+        line-height: 70px;
+    }
+    .menu li{
+        display: block;
+        text-align: center;
+    }
+    .menu {
+        float: none;
+    }
+    #checkbox:checked ~ .cont{
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        overflow: auto;
+        background-color: black;
+    }
+    #checkbox:checked ~ .cont .menu li a{
+        padding: 16px 20px;
+    }
+    .titre1 h1{
+        font-size: 24;
+    }
+    .para1 h1 {
+        font-size: 18px;
+        margin-top: 1px;
+    }
+    .titre2 {
+        font-size: 11px;
+        padding-top: 15px;
+    }
+}
